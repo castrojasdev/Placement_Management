@@ -1,0 +1,125 @@
+{
+  "intents": [
+
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+
+
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+
+
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    
+
+    {
+      "tag": "queries",
+      "patterns": ["queries", "upcoming schedule"],
+      "responses": [
+        "You should not send queries asking for the upcoming schedule",
+        "Our support team will notify the upcoming schedule,when it gets confirmed"
+      ]
+    },
+
+
+    {
+  "tag": "eligibility",
+  "patterns": ["eligibility", "eligible","PG"],
+  "responses": [
+    "Category I 60 % in 10th , 12th , UG and PG as applicable and no year gap in studies.Category II 60 % in 10th , 12th , UG and PG as applicable and upto 2 year gap in studies."
+  ]
+    },
+
+
+    {
+      "tag": "eligibility",
+      "patterns": ["eligibility", "eligible","UG"],
+      "responses": [
+        "Category I 60 % in 10th /12th /UG and more than 2 year gap in studies.Category II Less than 60 % in 10th /12th /UG and upto 2 year gap in studies.Category III Less than 60 % in 10th /12th /UG and more than 2 year gap in studies."
+      ]
+    },
+
+    {
+      "tag": "robot",
+      "patterns": ["Are you a robot", "You are a robot", "Robot?", "Are you a bot"],
+      "responses": [
+        "Yes I am a robot, but I’m a good one. Let me prove it. How can I help you?",
+        "As an artificial intelligence language model, I am not a physical robot, but rather a computer program running on servers. My purpose is to process natural language inputs and generate responses that mimic human-like conversation."
+      ]
+    },
+
+    {
+      "tag": "job",
+      "patterns": ["Need a Job", "Job needed", "Job Offer"],
+      "responses": [
+        "I understand that you may be looking for a job. Here are some suggestions that may help you in your job search: 1.Define your job search criteria: Before starting your job search, it is important to define the type of job you're looking for, including the industry, job title, location, salary, and other relevant factors. 2.Create a strong resume and cover letter: A well-written resume and cover letter can make a significant impact on your job search. Tailor your resume and cover letter to the job you're applying for, highlighting your relevant skills and experience.  3.Prepare for interviews: Once you start receiving interview requests, it's important to prepare thoroughly. Research the company and the job role, and practice your interview skills."
+      ]
+    },
+
+    {
+      "tag": "preparation",
+      "patterns": ["prepare", "preparation", "How to prepare for interview", "prepare for an interview", "What to prepare for interview"],
+      "responses": [
+        "1.Research the company 2.Review the job description 3.Practice common interview questions  4.Dress appropriately  5.Arrive on time  6.Bring copies of your resume and cover letter  7.Follow up after the interview"
+      ]
+    },
+
+    {
+      "tag": "apply",
+      "patterns": ["application", "apply", "how to apply for job"],
+      "responses": [
+        "1.Find the job posting 2.Prepare your application materials 3.Submit your application 4.Follow up"
+      ]
+    },
+
+
+    {
+      "tag": "Basic",
+      "patterns": ["interview questions", "interview", "basic questions", "question"],
+      "responses": [
+        "Can you tell me about yourself?,What are your strengths and weaknesses?,Why are you interested in this position?,Where do you see yourself in five years?"
+      ]
+    }
+  ]
+}

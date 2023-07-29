@@ -1,0 +1,2 @@
+If the error occur in train.py 
+try this : pip install --upgrade numpy
